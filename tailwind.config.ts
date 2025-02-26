@@ -45,7 +45,14 @@ const config: Config = {
     daisyui
   ],
   daisyui: {
-    themes: ["light", "dark"],
+    themes: ["dark", "light"],
+    darkTheme: "dark",
+    base: true,
+    styled: true,
+    utils: true,
+    prefix: "",
+    logs: false,
+    themeRoot: ":root",
   },
 };
 

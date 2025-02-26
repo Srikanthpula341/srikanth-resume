@@ -4,11 +4,7 @@ import React from 'react';
 import "./globals.css";
 import Navigation from "@/components/organisms/Navigation/Navigation";
 import { siteMetadata } from '@/config/metadata';
-import { generateMetaTags } from '@/lib/seoHelper';
-import { BasicMetaTags, OpenGraphTags, TwitterTags } from '@/components/Head/MetaTags';
-import { FaviconLinks, PerformanceLinks } from '@/components/Head/LinkTags';
-import { SecurityTags } from '@/components/Head/SecurityTags';
-import { ProfessionalTags, SkillsTags, EducationTags } from '@/components/Head/SEOTags';
+import DocumentHead from '@/components/Head/DocumentHead';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -63,22 +59,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const metaTags = generateMetaTags();
-
   return (
-    <html lang={siteMetadata.language} className="scroll-smooth">
+    <html lang={siteMetadata.language} className="scroll-smooth" data-theme="dark">
       <head>
-        <BasicMetaTags />
-        <OpenGraphTags />
-        <TwitterTags />
-        <FaviconLinks />
-        <SecurityTags />
-        <PerformanceLinks />
-        <ProfessionalTags metaTags={metaTags} />
-        <SkillsTags metaTags={metaTags} />
-        <EducationTags metaTags={metaTags} />
+        <DocumentHead />
       </head>
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} bg-background`}>
         <Navigation />
         {children}
       </body>
