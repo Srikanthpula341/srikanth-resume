@@ -2,21 +2,22 @@
 
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { TEXT } from '@/constants/text';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      setIsScrolled(window.scrollY > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -30,15 +31,10 @@ const Navigation = () => {
       )}
     >
       <nav className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
-        <div className="text-2xl font-bold text-white">SP</div>
+        <div className="text-2xl font-bold text-white">{TEXT.NAVIGATION.LOGO}</div>
         
         <ul className="flex items-center gap-8">
-          {[
-            { label: 'Home', id: 'home' },
-            { label: 'About', id: 'about' },
-            { label: 'Skills', id: 'skills' },
-            { label: 'Projects', id: 'projects' }
-          ].map(({ label, id }) => (
+          {TEXT.NAVIGATION.MENU_ITEMS.map(({ label, id }) => (
             <li key={id}>
               <button
                 onClick={() => scrollToSection(id)}
