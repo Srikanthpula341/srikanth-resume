@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import typography from '@tailwindcss/typography';
+import daisyui from 'daisyui';
 
 const config: Config = {
   content: [
@@ -8,18 +10,39 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        background: '#11071F',
       },
       animation: {
-        fadeIn: 'fadeIn 0.5s ease-out forwards',
+        'gradient': 'gradient 8s linear infinite',
+        'float': 'float 3s ease-in-out infinite',
+        fadeIn: 'fadeIn 0.5s ease-in forwards',
+      },
+      keyframes: {
+        gradient: {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    require('daisyui')
+    typography,
+    daisyui
   ],
   daisyui: {
     themes: ["light", "dark"],
