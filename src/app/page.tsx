@@ -7,6 +7,8 @@ import SkillsSection from '@/components/organisms/SkillsSection/SkillsSection';
 import ProjectsSection from '@/components/organisms/ProjectsSection/ProjectsSection';
 import LoadingSpinner from '@/components/atoms/LoadingSpinner/LoadingSpinner';
 import ErrorMessage from '@/components/atoms/ErrorMessage/ErrorMessage';
+import Script from 'next/script';
+import { generateStructuredData } from './structured-data';
 
 export default function Home() {
   const hero = useHeroData();
@@ -35,24 +37,29 @@ export default function Home() {
   }
 
   return (
-    <main className="bg-background overflow-x-hidden">
-      <section id="home">
-        <HeroSection data={hero.data} />
-      </section>
-      
-      <section id="about">
-        <AboutSection data={about.data} />
-      </section>
-      
-      <section id="skills">
-        <SkillsSection data={skills.data} />
-      </section>
-      
-      <section id="projects">
-        <ProjectsSection data={projects.data} />
-      </section>
-
-     
-    </main>
+    <>
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateStructuredData()) }}
+      />
+      <main className="bg-background overflow-x-hidden">
+        <section id="home">
+          <HeroSection data={hero.data} />
+        </section>
+        
+        <section id="about">
+          <AboutSection data={about.data} />
+        </section>
+        
+        <section id="skills">
+          <SkillsSection data={skills.data} />
+        </section>
+        
+        <section id="projects">
+          <ProjectsSection data={projects.data} />
+        </section>
+      </main>
+    </>
   );
 }

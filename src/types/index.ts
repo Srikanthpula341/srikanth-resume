@@ -113,4 +113,8 @@ export interface ProjectData {
   image: string;
   github_url?: string;
   live_url?: string;
-} 
+}
+
+export * from './seo';
+export * from './career';
+// ... export other types 
