@@ -1,4 +1,4 @@
-import { withErrorBoundary } from '@/components/ErrorBoundary/withErrorBoundary';
+import { withErrorBoundary } from '@/components/organisms/ErrorBoundary/withErrorBoundary';
 import { logger } from '@/lib/logger';
 
 function Header() {

@@ -1,8 +1,8 @@
 import { generateMetaTags } from '@/lib/seoHelper';
-import { BasicMetaTags, OpenGraphTags, TwitterTags } from '@/components/Head/MetaTags';
-import { FaviconLinks, PerformanceLinks } from '@/components/Head/LinkTags';
-import { SecurityTags } from '@/components/Head/SecurityTags';
-import { ProfessionalTags, SkillsTags, EducationTags } from '@/components/Head/SEOTags';
+import { BasicMetaTags, OpenGraphTags, TwitterTags } from '@/components/molecules/Head/MetaTags';
+import { FaviconLinks, PerformanceLinks } from '@/components/molecules/Head/LinkTags';
+import { SecurityTags } from '@/components/molecules/Head/SecurityTags';
+import { ProfessionalTags, SkillsTags, EducationTags } from '@/components/molecules/Head/SEOTags';
 
 export default function DocumentHead() {
   const metaTags = generateMetaTags();

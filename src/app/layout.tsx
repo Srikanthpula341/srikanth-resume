@@ -4,7 +4,7 @@ import React from 'react';
 import "./globals.css";
 import Navigation from "@/components/organisms/Navigation/Navigation";
 import { siteMetadata } from '@/config/metadata';
-import DocumentHead from '@/components/Head/DocumentHead';
+import DocumentHead from '@/components/molecules/Head/DocumentHead';
 
 const inter = Inter({ subsets: ["latin"] });
 

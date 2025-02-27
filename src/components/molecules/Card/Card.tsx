@@ -1,5 +1,5 @@
 import { useErrorHandler } from '@/hooks/useErrorHandler';
-import { withErrorBoundary } from '@/components/ErrorBoundary/withErrorBoundary';
+import { withErrorBoundary } from '@/components/organisms/ErrorBoundary/withErrorBoundary';
 
 function Card() {
   const handleError = useErrorHandler();
