@@ -2,7 +2,7 @@
 
 import Heading from '@/components/atoms/Typography/Heading';
 import Text from '@/components/atoms/Typography/Text';
-import Button from '@/components/atoms/Button/Button';
+import Button from '@/components/atoms/Button';
 import { GitHubIcon, LinkedInIcon, EmailIcon } from '@/components/atoms/Icons';
 import { TEXT } from '@/constants/text';
 import type { HeroData } from '@/types';

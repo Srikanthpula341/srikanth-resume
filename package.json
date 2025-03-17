@@ -9,7 +9,8 @@
     "export": "next export",
     "lint": "next lint",
     "test:seo": "playwright test tests/seo.spec.ts",
-    "test:lighthouse": "lighthouse http://localhost:3000 --view"
+    "test:lighthouse": "lighthouse http://localhost:3000 --view",
+    "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",

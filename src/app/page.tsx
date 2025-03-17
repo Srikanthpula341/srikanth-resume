@@ -5,8 +5,8 @@ import HeroSection from '@/components/organisms/HeroSection/HeroSection';
 import AboutSection from '@/components/organisms/AboutSection/AboutSection';
 import SkillsSection from '@/components/organisms/SkillsSection/SkillsSection';
 import ProjectsSection from '@/components/organisms/ProjectsSection/ProjectsSection';
-import LoadingSpinner from '@/components/atoms/LoadingSpinner/LoadingSpinner';
-import ErrorMessage from '@/components/atoms/ErrorMessage/ErrorMessage';
+import LoadingSpinner from '@/components/atoms/LoadingSpinner';
+import ErrorMessage from '@/components/atoms/ErrorMessage';
 import Script from 'next/script';
 import { generateStructuredData } from './structured-data';
 
