@@ -5,6 +5,7 @@ import "./globals.css";
 import Navigation from "@/components/organisms/Navigation/Navigation";
 import { siteMetadata } from '@/config/metadata';
 import DocumentHead from '@/components/molecules/Head/DocumentHead';
+import { generateStructuredData } from './structured-data';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteMetadata.title}`
   },
   description: siteMetadata.description,
-  keywords: siteMetadata.keywords,
+  keywords: [...siteMetadata.keywords],
   authors: [{ name: siteMetadata.author }],
   creator: siteMetadata.author,
   openGraph: {
@@ -63,10 +64,19 @@ export default function RootLayout({
     <html lang={siteMetadata.language} className="scroll-smooth" data-theme="dark">
       <head>
         <DocumentHead />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateStructuredData()),
+          }}
+        />
       </head>
-      <body className={`${inter.className} bg-background`}>
-        <Navigation />
-        {children}
+      <body className={`${inter.className} min-h-screen bg-background-1`}>
+        <div className="fixed inset-0 bg-background-1 -z-10" />
+        <div className="relative z-0">
+          <Navigation />
+          {children}
+        </div>
       </body>
     </html>
   );
