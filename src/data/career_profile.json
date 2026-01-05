@@ -7,7 +7,7 @@
         "github": "https://github.com/Srikanthpula341",
         "linkedin": "https://www.linkedin.com/in/srikanthpula/"
     },
-    "career_summary": "Highly skilled software engineer with over 3+ years of experience in Full Stack Development, specializing in Java, Spring, NextJS, and Angular. Proficient in building scalable web applications and implementing real-time communication solutions. Experienced in collaborating with cross-functional teams to successfully deliver projects on schedule.",
+    "career_summary": "Highly skilled software engineer with over 4+ years of experience in Full Stack Development, specializing in Java, Spring, NextJS, and Angular. Proficient in building scalable web applications and implementing real-time communication solutions. Experienced in collaborating with cross-functional teams to successfully deliver projects on schedule.",
     "skills": {
         "backend": [
             "Java",
@@ -43,6 +43,40 @@
         ]
     },
     "experience": [
+        {
+            "company": "Stratosphere IT Services Pvt Ltd (Client: Publicis Sapient – Optum)",
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "Spring MVC",
+                "Microservices",
+                "REST APIs",
+                "ReactJS",
+                "TypeScript",
+                "NPM",
+                "PostgreSQL",
+                "Caching",
+                "Clean Architecture"
+            ],
+            "position": "Senior Software Engineer (Full Stack)",
+            "duration": "Apr 2025 – Present",
+            "location": "Hyderabad, India",
+            "projects": [
+                {
+                    "name": "Meteor – Centralized Data Platform (Optum)",
+                    "description": [
+                        "Working on Meteor, a centralized enterprise data platform aggregating data from multiple source systems to enable Automated Benefit Configuration (ABC) across Optum applications",
+                        "Developing and maintaining scalable backend microservices using Java and Spring Boot with strict adherence to clean architecture and domain-driven design principles",
+                        "Designing and exposing high-performance REST APIs consumed by internal platforms such as Advocate Central and Optum Member Portal",
+                        "Optimized backend performance by implementing query tuning, caching strategies, and efficient service orchestration, reducing API response times by 25%",
+                        "Building reusable and modular ReactJS components shared across multiple Optum applications, improving UI consistency and reducing feature development effort by 30%",
+                        "Created and maintained shared NPM libraries to standardize UI patterns and business logic across teams, significantly reducing duplicate code and UI-related defects",
+                        "Collaborating closely with cross-functional teams including product owners, architects, and QA to deliver enterprise-grade, reliable solutions",
+                        "Ensuring high code quality through peer reviews, unit testing, and adherence to enterprise security and compliance standards"
+                    ]
+                }
+            ]
+        },
         {
             "company": "Zemoso Technologies",
             "technologies": [
@@ -80,7 +114,7 @@
                 "NodeJS"
             ],
             "position": "Software Engineer",
-            "duration": "June 2023 – Present",
+            "duration": "June 2023 – Sept 2024",
             "location": "Hyderabad, India",
             "projects": [
                 {
@@ -172,7 +206,7 @@
         "One month Python ML internship at INMOVIDU Tech",
         "Two-month Computer Applications internship at Kaasiv Infotech",
         "One-year Java Full Stack trainee at Pentagon Space Institute",
-        "Ongoing 12-month Full Stack training at Skill Slash Academy"
+        "12-month Full Stack training at Skill Slash Academy"
     ],
     "certifications": [
         "Java, SQL, JavaScript, CSS, Problem solving from HackerRank",
