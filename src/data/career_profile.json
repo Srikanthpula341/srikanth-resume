@@ -1,0 +1,233 @@
+{
+    "name": "Srikanth Pula",
+    "contact": {
+        "email": "Pulasrikanth1999@gmail.com",
+        "phone": "9640599450",
+        "website": "https://www.softwarecareers.co.in/",
+        "github": "https://github.com/Srikanthpula341",
+        "linkedin": "https://www.linkedin.com/in/srikanthpula/"
+    },
+    "career_summary": "Highly skilled software engineer with over 4+ years of experience in Full Stack Development, specializing in Java, Spring, NextJS, and Angular. Proficient in building scalable web applications and implementing real-time communication solutions. Experienced in collaborating with cross-functional teams to successfully deliver projects on schedule.",
+    "skills": {
+        "backend": [
+            "Java",
+            "Spring",
+            "Microservices",
+            "REST APIs"
+        ],
+        "frontend": [
+            "React",
+            "Angular",
+            "NextJS",
+            "TypeScript"
+        ],
+        "database": [
+            "PostgreSQL",
+            "MongoDB",
+            "MySQL"
+        ],
+        "testing": [
+            "JUnit",
+            "Jest"
+        ],
+        "IDE": [
+            "VSCode",
+            "IntelliJ",
+            "Eclipse"
+        ],
+        "others": [
+            "Git",
+            "Docker",
+            "Azure",
+            "Linux"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Stratosphere IT Services Pvt Ltd (Client: Publicis Sapient – Optum)",
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "Spring MVC",
+                "Microservices",
+                "REST APIs",
+                "ReactJS",
+                "TypeScript",
+                "NPM",
+                "PostgreSQL",
+                "Caching",
+                "Clean Architecture"
+            ],
+            "position": "Senior Software Engineer (Full Stack)",
+            "duration": "Apr 2025 – Present",
+            "location": "Hyderabad, India",
+            "projects": [
+                {
+                    "name": "Meteor – Centralized Data Platform (Optum)",
+                    "description": [
+                        "Working on Meteor, a centralized enterprise data platform aggregating data from multiple source systems to enable Automated Benefit Configuration (ABC) across Optum applications",
+                        "Developing and maintaining scalable backend microservices using Java and Spring Boot with strict adherence to clean architecture and domain-driven design principles",
+                        "Designing and exposing high-performance REST APIs consumed by internal platforms such as Advocate Central and Optum Member Portal",
+                        "Optimized backend performance by implementing query tuning, caching strategies, and efficient service orchestration, reducing API response times by 25%",
+                        "Building reusable and modular ReactJS components shared across multiple Optum applications, improving UI consistency and reducing feature development effort by 30%",
+                        "Created and maintained shared NPM libraries to standardize UI patterns and business logic across teams, significantly reducing duplicate code and UI-related defects",
+                        "Collaborating closely with cross-functional teams including product owners, architects, and QA to deliver enterprise-grade, reliable solutions",
+                        "Ensuring high code quality through peer reviews, unit testing, and adherence to enterprise security and compliance standards"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Zemoso Technologies",
+            "technologies": [
+                "ReactJS",
+                "Java",
+                "Spring",
+                "Microservices",
+                "REST APIs",
+                "Module Federation",
+                "Webpack"
+            ],
+            "position": "Software Engineer 3",
+            "duration": "Oct 2024 – Present",
+            "location": "Hyderabad, India",
+            "projects": [
+                {
+                    "name": "Enterprise Low-Code Platform",
+                    "description": [
+                        "Developing a low-code platform similar to Appsmith, enabling rapid application development through drag-and-drop interfaces and visual programming",
+                        "Implementing micro-frontend architecture using Module Federation to create independent, deployable components and widgets",
+                        "Building reusable UI components and custom widgets with React, supporting dynamic data binding and real-time preview",
+                        "Designing and implementing a scalable backend system using Java Spring for handling component configurations, user workflows, and data integrations",
+                        "Creating an extensible plugin system allowing third-party developers to contribute custom components and integrations"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "ArThink",
+            "technologies": [
+                "NextJS",
+                "React Native",
+                "ReactJS",
+                "Socket.io",
+                "NodeJS"
+            ],
+            "position": "Software Engineer",
+            "duration": "June 2023 – Sept 2024",
+            "location": "Hyderabad, India",
+            "projects": [
+                {
+                    "name": "OnFit Healthcare Platform",
+                    "description": [
+                        "Led the development of a comprehensive healthcare platform connecting doctors and patients, implementing end-to-end features for online consultations and medical record management",
+                        "Engineered a secure medical prescription system with digital signatures and audit trails, ensuring HIPAA compliance and data privacy",
+                        "Developed a responsive web interface using NextJS and a native mobile app using React Native, achieving a 98% user satisfaction rate",
+                        "Implemented real-time chat and video consultation features using WebRTC and Socket.io, reducing consultation wait times by 40%",
+                        "Successfully deployed and maintained the Android version on the Play Store, managing the entire CI/CD pipeline and achieving a 4.5+ star rating"
+                    ]
+                },
+                {
+                    "name": "AI-Powered Customer Service Chatbot",
+                    "description": [
+                        "Architected and developed an intelligent chatbot system with natural language processing capabilities, handling over 1000+ customer queries daily",
+                        "Integrated custom business logic and machine learning models to provide context-aware responses, improving customer satisfaction by 45%",
+                        "Implemented real-time communication using WebSocket for seamless bi-directional data transfer between users and support agents",
+                        "Designed and implemented a secure file transfer system using WebSocket and Azure Blob Storage, handling sensitive documents with end-to-end encryption",
+                        "Created an analytics dashboard for monitoring chatbot performance and user interaction patterns, providing valuable insights for continuous improvement"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Nest Digital Pvt Ltd",
+            "technologies": [
+                "Java",
+                "Spring",
+                "Azure IOT",
+                "Angular"
+            ],
+            "position": "Software Engineer",
+            "duration": "Dec 2021 – June 2023",
+            "location": "Kochi, India",
+            "projects": [
+                {
+                    "name": "Stryker Medical Equipment Management System",
+                    "description": [
+                        "Spearheaded the development of a POC web application for managing medical surgery tools, implementing real-time location tracking and maintenance scheduling",
+                        "Designed and implemented a microservices architecture using Spring WebFlux, improving system scalability and reducing response times by 60%",
+                        "Led a team of 4 developers, implementing Agile methodologies and ensuring on-time delivery of all project milestones",
+                        "Developed a micro-frontend architecture using Module Federation, enabling independent deployment of application modules",
+                        "Implemented real-time analytics and reporting features, providing valuable insights into equipment utilization and maintenance patterns"
+                    ]
+                },
+                {
+                    "name": "Heartbeat IoT Monitoring System",
+                    "technologies": [
+                        "Angular",
+                        "Spring",
+                        "Azure Blobs",
+                        "Postgres"
+                    ],
+                    "description": [
+                        "Developed a critical care monitoring system for ICU patients, integrating IoT devices for real-time health data collection and analysis",
+                        "Implemented a responsive dashboard using Angular, displaying real-time patient vitals and health metrics through interactive charts",
+                        "Designed and implemented a scalable backend architecture handling data from 100+ IoT devices simultaneously",
+                        "Created automated alert systems for critical health parameters, reducing response time to medical emergencies by 50%",
+                        "Implemented data analytics features to identify patterns and trends in patient health data, aiding in predictive healthcare"
+                    ]
+                },
+                {
+                    "name": "Restaurant Management System",
+                    "technologies": [
+                        "Angular",
+                        "Spring",
+                        "Postgres"
+                    ],
+                    "description": [
+                        "Developed a comprehensive restaurant management system handling inventory, orders, and staff management",
+                        "Implemented real-time order tracking and kitchen management features, reducing order processing time by 30%",
+                        "Created an inventory management system with automated reordering capabilities and waste tracking",
+                        "Designed and implemented a reporting system for sales analytics and business intelligence",
+                        "Integrated payment gateway and POS systems, streamlining the billing process and reducing errors by 40%"
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Lakireddy Bali Reddy College of Engineering (under JNTUK)",
+        "degree": "B. Tech, Mechanical Engineering",
+        "graduation_year": "July 2021",
+        "location": "Mylavaram",
+        "cgpa": "8.74/10"
+    },
+    "internships_trainings": [
+        "One month Python ML internship at INMOVIDU Tech",
+        "Two-month Computer Applications internship at Kaasiv Infotech",
+        "One-year Java Full Stack trainee at Pentagon Space Institute",
+        "12-month Full Stack training at Skill Slash Academy"
+    ],
+    "certifications": [
+        "Java, SQL, JavaScript, CSS, Problem solving from HackerRank",
+        "5 stars in Java from HackerRank"
+    ],
+    "honors_awards": [
+        "NMMS - Got merit scholarship from national level test in 2012.",
+        "CHEKUMUKI - Got 6th place in state level science competition in 2012.",
+        "MERIT STUDENT - Got 1st place in SSC at the mandal level."
+    ],
+    "interests": [
+        "Travelling",
+        "Self-improvement",
+        "Food",
+        "Gardening"
+    ],
+    "strengths": [
+        "Teamwork",
+        "Adaptability",
+        "Leadership",
+        "Stress Management",
+        "Fast Learner"
+    ]
+}

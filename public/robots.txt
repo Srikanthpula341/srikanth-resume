@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.softwarecareers.co.in/sitemap.xml 
